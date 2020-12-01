@@ -31,12 +31,25 @@ public class DataSource {
     public static final String COLUMN_PR_BRAND_ID = "product_brandID";
     public static final String COLUMN_PR_SUPPLIER_ID = "product_supplierID";
 
+    //Product table indices
+    public static final int INDEX_PRODUCT_ID = 1;
+    public static final int INDEX_PRODUCT_NAME = 2;
+    public static final int INDEX_PRODUCT_PRICE = 3;
+    public static final int INDEX_COUNT_IN_STOCK = 4;
+    public static final int INDEX_PR_BRAND_ID = 5;
+    public static final int INDEX_PR_SUPPLIER_ID = 6;
+
 
     //Suppliers Table and Column
     public static final String TABLE_SUPPLIER = "suppliers";
     public static final String COLUMN_SUPPLIER_ID = "supplier_id";
     public static final String COLUMN_SUPPLIER_NAME = "supplier_name";
     public static final String COLUMN_SUPPLIER_ADDRESS = "supplier_address";
+
+    //Supplier table indices
+    public static final int INDEX_SUPPLIER_ID = 1;
+    public static final int INDEX_SUPPLIER_NAME = 2;
+    public static final int INDEX_SUPPLIER_ADDRESS = 3;
 
 
     private Connection conn;
